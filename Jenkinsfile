@@ -25,6 +25,7 @@ pipeline {
                     npm ci
                     npm run build
                     touch container.yes.txt
+                    ls -la
                 '''
             }
         }
